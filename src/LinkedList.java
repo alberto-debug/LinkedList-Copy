@@ -11,7 +11,6 @@ public class LinkedList {
         if (head ==null){
             head = newNode;
         } else {
-
             Node n = head;
             while (n.next!=null){
                 n = n.next;
