@@ -10,7 +10,11 @@ public class LinkedList {
 
         if (head != null){
             head = newnode;
-        } else
+        } else {
+            Node n = head;
+
+
+        }
     }
 
 }
