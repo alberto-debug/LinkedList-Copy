@@ -12,7 +12,10 @@ public class LinkedList {
             head = newNode;
         } else {
              Node n = newNode;
-
+             while (n.next != null){
+                 n = n.next;
+             }
+             n.next = newNode;
         }
     }
 
