@@ -13,7 +13,9 @@ public class LinkedList {
         }else {
             Node n = head;
             while (n.next != null){
+
                 n.next = newNode;
+
             }
         }
     }
