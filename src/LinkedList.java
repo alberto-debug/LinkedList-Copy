@@ -15,7 +15,6 @@ public class LinkedList {
 
            while (n.next != null){
                n = n.next;
-
            }
            n.next = newnode;
        }
