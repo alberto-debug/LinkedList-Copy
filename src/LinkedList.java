@@ -8,6 +8,9 @@ public class LinkedList {
         newNode.data = x;
         newNode.next = null;
 
+        if (head == null){
+            head = newNode;
+        }
     }
 
 }
