@@ -9,10 +9,20 @@ public class LinkedList {
         newnode.next = null;
 
         if (head != null){
+
             head = newnode;
+
         } else {
+
             Node n = head;
 
+            while (n.next != null){
+
+                n = n.next;
+
+            }
+
+            n.next = newnode;
 
         }
     }
