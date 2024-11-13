@@ -10,7 +10,16 @@ public class LinkedList {
 
         if (head == null) {
             head = newnode;
+        } else { if (head == null) {
+            newnode = head;
         } else {
+            Node n = head;
+            while (n.next != null) {
+                n = n.next;
+            }
+
+            n.next = newnode;
+        }
             Node n = head;
             while (n.next != null) {
                 n = n.next;
