@@ -6,7 +6,14 @@ public class LinkedList {
 
         Node newNode = new Node();
         newNode.data = x;
+        newNode.next = null;
 
+        if (head == null){
+            head = newNode;
+        } else {
+             Node n = newNode;
+
+        }
     }
 
 }
