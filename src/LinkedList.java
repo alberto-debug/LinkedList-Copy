@@ -12,7 +12,7 @@ public class LinkedList {
             head = newnode;
         } else {
 
-            Node n = newnode;
+            Node n = head;
 
             while (n.next != null){
                 n = n.next;
