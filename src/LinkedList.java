@@ -5,6 +5,8 @@ public class LinkedList {
     public void insert(int x){
 
         Node newNode = new Node();
+        newNode.data = x;
+        newNode.next = null;
 
     }
 
