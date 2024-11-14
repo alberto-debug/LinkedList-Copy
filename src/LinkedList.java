@@ -2,5 +2,8 @@ public class LinkedList {
 
     Node head;
 
-    public
+    public void insert(int x){
+
+
+    }
 }
