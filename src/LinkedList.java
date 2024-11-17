@@ -17,7 +17,6 @@ public class LinkedList {
              }
              n.next = newnode;
         }
-
     }
 }
 
