@@ -18,6 +18,17 @@ public class LinkedList {
             n.next = newnode;
         }
     }
+
+    public void traverse(){
+
+        Node v = head;
+
+        while (v.next != null){
+            System.out.println(v.data);
+            v = v.next;
+        }
+        System.out.println("Tail node : " + v.data);
+    }
 }
 
 
