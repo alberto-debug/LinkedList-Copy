@@ -19,6 +19,14 @@ public class LinkedList {
         }
     }
 
+    public void traverse(){
+        Node v = head;
+
+        while (v.next != null){
+            
+        }
+    }
+
 }
 
 
