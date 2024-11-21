@@ -11,8 +11,13 @@ public class LinkedList {
         if (head == null){
             head = newnode;
 
+        } else {
+            Node n = newnode;
+            while (n.next != null){
+                n = n.next;
+            }
+            n.next = newnode;
         }
-
     }
 }
 
