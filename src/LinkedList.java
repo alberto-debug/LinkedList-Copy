@@ -1,6 +1,7 @@
 public class LinkedList {
 
     Node head;
+    Node head2;
 
     public void insert(int x) {
 
